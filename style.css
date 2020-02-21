@@ -16,7 +16,11 @@ body {
 }
 
 .Maclasse {
-  color: #f01616;
+  color: #969696;
+}
+
+.MaclasseDeux {
+  text-decoration: line-through;
 }
 
 .entry .entry-title:before {
