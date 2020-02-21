@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Twenty nineteen Enfant
+ Theme URI:    http://referenced.ca
+ Description:  Twenty nineteen Child Theme
+ Author:       Msrie-Pier Tsingskis
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteen-enfant
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Maclasse {
+  color: #969696;
+}
+
+.MaclasseDeux {
+  text-decoration: line-through;
+}
+
+.EnteteDisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .EnteteDisplay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.entry .entry-title:before {
+  height: 0px;
+  width: 0px;
+}
+
+p.site-title {
+  margin-right: 7em;
+}
+/*# sourceMappingURL=style.css.map */
