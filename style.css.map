@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;;;;;;;EAYE;ACZF,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;CACpC;;ACDD,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAA;EACtB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "sass/style.scss",
+        "sass/_layout.scss",
+        "sass/_entente.scss",
+        "sass/_footer.scss",
+        "sass/_mixin.scss",
+        "sass/_gutenberg.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
