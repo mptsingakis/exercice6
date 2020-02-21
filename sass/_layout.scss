@@ -8,3 +8,14 @@ body{
 .MaclasseDeux{
     text-decoration: line-through;
 }
+.EnteteDisplay{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 500px){
+    .EnteteDisplay{
+        display: flex;
+        flex-direction: row;
+    }
+}
